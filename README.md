@@ -1,6 +1,20 @@
 
 # 🧾 Aplicación de Gestión de Facturas – Backend (.NET 8 + EF Core + SQLite)
 
+### 🧱 Patrón de diseño aplicado en el Backend
+
+Se utilizó una **Arquitectura en Capas (Layered Architecture)**, dividiendo el proyecto en:
+
+- **Controladores:** Responsables de recibir las solicitudes HTTP y devolver respuestas.
+- **Modelos (Models):** Representan las entidades del dominio (facturas, productos, notas de crédito).
+- **DTOs (Data Transfer Objects):** Aislan la capa de presentación de la capa de dominio.
+- **Data:** Configuración de Entity Framework Core y el acceso a la base de datos SQLite.
+- **Migrations:** Historial de versiones del esquema de base de datos.
+
+Esto permite mantener una separación clara de responsabilidades, mejorar la mantenibilidad del código y facilitar la evolución del proyecto.
+
+---
+
 ## 1. 📌 ¿Que realiza esta API?
 
 Este backend expone una **API REST** que permite cargar, consultar y administrar facturas. Entre sus funcionalidades principales se encuentran:
