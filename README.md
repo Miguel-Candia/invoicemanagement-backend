@@ -19,11 +19,11 @@ Esto permite mantener una separación clara de responsabilidades, mejorar la man
 
 Este backend expone una **API REST** que permite cargar, consultar y administrar facturas. Entre sus funcionalidades principales se encuentran:
 
-- ✅ Subida de un archivo JSON con múltiples facturas
-- ✅ Listado completo de facturas registradas
-- ✅ Búsqueda de facturas por número, estado de factura y estado de pago
-- ✅ Visualización del detalle de una factura específica
-- ✅ Registro de Notas de Crédito asociadas a una factura
+- ✅ Subida de un archivo JSON con múltiples facturas.
+- ✅ Listado completo de facturas registradas.
+- ✅ Búsqueda de facturas por número, estado de factura y estado de pago.
+- ✅ Visualización del detalle de una factura específica.
+- ✅ Registro de Notas de Crédito asociadas a una factura.
 - ✅ Cálculo automático de:
   - Estado de la factura: `Issued`, `Partial`, `Cancelled`
   - Estado de pago: `Pending`, `Overdue`, `Paid`
@@ -51,13 +51,13 @@ Esta API es consumida por el frontend desarrollado en ReactJS.
 
 ### Pasos para ejecutar
 
-1. Abre el proyecto en Visual Studio
+1. Abre el proyecto en Visual Studio.
 
 2. Restaura las dependencias: dotnet restore --> Este comando descarga e instala los paquetes NuGet (como Entity Framework Core, etc.) que necesita tu proyecto para funcionar.
 
 ⚠️ Si usas Visual Studio, esto se hace automaticamente al abrir y compilar el proyecto.
 
-3. Ejecutar el proyecto: dotnet run  --> Este comando inicia tu API backend. Despues de ejecutarlo, tu API estara corriendo localmente
+3. Ejecutar el proyecto: dotnet run  --> Este comando inicia tu API backend. Despues de ejecutarlo, tu API estara corriendo localmente.
 
 ## 4. 🔌 Endpoints principales
 
